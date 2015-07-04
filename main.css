@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "OpenSansCondensedLight";
+    src: url("../fonts/OpenSansCondensedLight/OpenSansCondensedLight.eot");
+    src: url("../fonts/OpenSansCondensedLight/OpenSansCondensedLight.woff") format("woff"),
+    url("../fonts/OpenSansCondensedLight/OpenSansCondensedLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: light;
+    }
+
+@font-face {
+    font-family: "OpenSansCondensedBold";
+    src: url("../fonts/OpenSansCondensedBold/OpenSansCondensedBold.eot");
+    src: url("../fonts/OpenSansCondensedBold/OpenSansCondensedBold.woff") format("woff"),
+    url("../fonts/OpenSansCondensedBold/OpenSansCondensedBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    }
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background-color: #ccc;
+    }
+body.bg1 { background-color: #9C5C5B; }
+body.bg2 { background-color: #2B3E50; }
+body.bg3 { background-color: #5F586B; }
+body.bg4 { background-color: #00819E; }
+body.bg5 { background-color: #9B4C71; }
+body.bg6 { background-color: #769D93; }
+body.bg7 { background-color: #683136; }
+body.bg8 { background-color: #28795D; }
+body.bg9 { background-color: #828B3C; }
+body.bg10 { background-color: #457698; }
+body.bg11 { background-color: #764572; }
+
+.phrase {
+    max-width: 600px;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    }
+
+.phrase__text {
+    font-family: 'OpenSansCondensedBold', Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 48px;
+    color: white;
+    }
+
+.phrase__link {
+    text-decoration: none;
+    }
+
+.copyright {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    font-size: 14px;
+    font-family: 'OpenSansCondensedLight', Tahoma, sans-serif;
+    font-weight: light;
+    color: white;
+    }
+
+.email,
+.copyright a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    }
+
+.email {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    font-size: 14px;
+    font-family: 'OpenSansCondensedLight', Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: light;
+    color: white;
+    }
